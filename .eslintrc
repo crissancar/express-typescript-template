@@ -1,0 +1,27 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true,
+        "jest": true
+    },
+    "extends": [
+        "standard",
+        "prettier"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "@typescript-eslint"
+    ],
+    "rules": {
+        "no-unused-vars": "off",
+        "@typescript-eslint/no-unused-vars": ["warn"],
+        "node/no-path-concat": "off",
+        "no-return-assign": "off",
+        "no-useless-constructor": "off"
+    }
+}
